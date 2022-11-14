@@ -64,9 +64,9 @@ function plusMinus(arr) {
     }
   }
 
-  const positiveRatio = positive.length / arr.length;
-  const negativeRatio = negative.length / arr.length;
-  const zeroRatio = zero.length / arr.length;
+  const positiveRatio = parseFloat((positive.length / arr.length).toFixed(6));
+  const negativeRatio = parseFloat((negative.length / arr.length).toFixed(6));
+  const zeroRatio = parseFloat((zero.length / arr.length).toFixed(6));
 
   console.log(positiveRatio);
   console.log(negativeRatio);
