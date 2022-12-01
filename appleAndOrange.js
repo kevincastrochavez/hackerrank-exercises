@@ -43,11 +43,14 @@ Print two integers on two different lines:
 The first integer: the number of apples that fall on Sam's house.
 The second integer: the number of oranges that fall on Sam's house.
 Sample Input
-7 11
-5 15
-3 2
--2 2 1
-5 -6
+7 
+11
+5 
+15
+3 
+2
+[-2, 2, 1]
+[5,-6]
 
 
 Sample Output
